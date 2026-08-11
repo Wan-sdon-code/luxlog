@@ -8,7 +8,7 @@ overlook:
 
 **The hidden cost of giving services or equipment for free.**
 
-![LuxLog Dashboard](./ledwall.png)
+![LuxLog Dashboard](./ledwall2.png)
 
 ------------------------------------------------------------------------
 
