@@ -1,49 +1,59 @@
-# ======================================================================
-# PROJECT: LuxLog (v1.7)
-# STRATEGY: wansaidon
-# DESCRIPTION: Tracking the hidden costs of "Free" AV Setups.
-# ======================================================================
+# 📽️ LuxLog — When "Free" Isn't Really Free
+# Concept & analysis by Wansaidon
 
-print("📽️ PROJECT: LUXLOG (v1.7)")
-print("Logic: Why 'Free' service isn't actually free.")
-print("-" * 60)
+print("📽️ LUXLOG")
+print("When 'Free' Isn't Really Free")
+print("=" * 40)
 
-logic_content = """
-[ 🕹️ THE SIMPLE TRUTH ]
+# Example made-up data
+equipment_hours = 8
+staff_hours = 5
 
-1. THE GEAR: Expensive stuff like LED Walls that eventually break.
-2. THE FAVOR: Waiving fees to keep the customer happy.
-3. THE WEAR: Every hour used, the gear gets closer to dying.
-4. THE LABOR: Staff working for free is time they never get back.
-5. THE RISK: Doing too many favors leads to zero budget for new gear.
-6. THE MATH: What it actually cost us vs. the $0 we charged.
+equipment_cost_per_hour = 30
+staff_cost_per_hour = 20
 
-[ 📊 THE 3 LEAK POINTS ]
+customer_paid = 0
 
-* GEAR LIFESPAN: A free hour is still a 'withdrawal' from the gear's life.
-* STAFF BURNOUT: Expert labor spent on uncharged work is money lost.
-* THE HIDDEN PRICE: The money sacrificed for a 'Customer Service' score.
+# Work out the estimated costs
+equipment_cost = equipment_hours * equipment_cost_per_hour
+staff_cost = staff_hours * staff_cost_per_hour
 
-[ 🛠️ SYSTEM RECOMMENDATIONS ]
+total_cost = equipment_cost + staff_cost
+business_covers = total_cost - customer_paid
 
-🟢 STABLE: Gear is healthy; staff are energized. Keep going.
-🔴 CRITICAL: We are giving away too much. Stop before something breaks.
+# Show the results
+print("\n📊 SETUP SUMMARY")
 
-[ 📜 SAFETY CODE ]
+print(f"\nEquipment used: {equipment_hours} hours")
+print(f"Staff time: {staff_hours} hours")
+print(f"Customer paid: ${customer_paid:.2f}")
 
-* DATA IS LIFE: Track the hours or you won't have a replacement budget.
-* RESPECT THE HUSTLE: Tired workers make mistakes. Protect your team.
-* SERVICE HAS LIMITS: Don't let a 'Free Setup' turn into a broken asset.
+print("\n💰 ESTIMATED COST")
 
-----------------------------------------------------------------------
-⚠️ LEGAL DISCLAIMER:
-PROPRIETARY DATA NOTICE: Uses synthetic estimates for educational 
-purposes only. Not real company data.
+print(f"\nEquipment cost: ${equipment_cost:.2f}")
+print(f"Staff cost: ${staff_cost:.2f}")
+print(f"Total cost: ${total_cost:.2f}")
 
-✍️ CREDITS:
-Research & Strategy: wansaidon
-Drafting: Gemini AI
-----------------------------------------------------------------------
-"""
+print("\n📉 HIDDEN COST")
 
-print(logic_content)
+print(f"\nBusiness may have to cover: ${business_covers:.2f}")
+
+# Simple warning system
+print("\n🚦 STATUS")
+
+if business_covers < 200:
+    print("🟢 OK — Cost is still reasonable.")
+
+elif business_covers < 500:
+    print("🟠 CHECK — Cost is starting to add up.")
+
+else:
+    print("🔴 TOO MUCH — Time to review.")
+
+print("\n" + "=" * 40)
+
+print("Customer paid:", f"${customer_paid:.2f}")
+print("Business cost:", f"${total_cost:.2f}")
+
+print("\nFree for the customer")
+print("doesn't always mean free for the business.")
