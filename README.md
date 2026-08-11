@@ -42,14 +42,23 @@ Keep doing it again and again?
 
 ## 📊 What Does LuxLog Track?
 
-  What We Track         Why
-  --------------------- -----------------------------------------
-  **Equipment Hours**   How long the equipment was used
-  **Staff Hours**       How much time staff spent on it
-  **Equipment Cost**    Estimated cost of using the equipment
-  **Staff Cost**        Estimated cost of the time spent
-  **Customer Paid**     How much was charged
-  **Total Cost**        How much the business may have to cover
+**⏱️ Equipment Hours**\
+How long the equipment was used.
+
+**👷 Staff Hours**\
+How much time staff spent on the setup.
+
+**🔧 Equipment Cost**\
+The estimated cost of using the equipment.
+
+**💵 Staff Cost**\
+The estimated cost of the staff time used.
+
+**🧾 Customer Paid**\
+How much the customer was charged.
+
+**📉 Total Cost**\
+How much the business may have to cover.
 
 Nothing fancy.
 
@@ -61,30 +70,33 @@ Just answering:
 
 ## 🔍 What Can We Analyse?
 
-LuxLog can be used to investigate questions like:
+LuxLog can help us ask:
 
--   How many free setups are happening?
--   How many equipment hours are being used for free?
--   How many staff hours go into free setups?
--   Which equipment gets used the most?
--   What is the estimated cost of each free setup?
--   Which month has the highest free usage?
--   Is free usage increasing over time?
--   Are a small number of events responsible for most of the cost?
+**How many free setups are happening?**
 
-And most importantly:
+**How many hours is the equipment being used for free?**
+
+**How much staff time goes into them?**
+
+**Which equipment gets used the most?**
+
+**How much could each free setup be costing?**
+
+**Which month has the most free usage?**
+
+**Is free usage increasing over time?**
+
+And the most important question:
 
 > **Are free setups actually a problem?**
 
-The goal is not to assume the answer.
-
-Let the data tell the story.
+We don't assume the answer.
 
 Maybe the cost is small and everything is fine.
 
 Maybe the cost is growing and needs attention.
 
-**Both are useful findings.**
+**Let the data tell the story.**
 
 ------------------------------------------------------------------------
 
@@ -112,7 +124,7 @@ No need for 25 charts and one meeting that could have been an email. 😂
 
 ------------------------------------------------------------------------
 
-## 💡 Does This Mean We Should Stop Giving Things for Free?
+## 💡 Should We Stop Giving Things for Free?
 
 No.
 
@@ -120,7 +132,7 @@ Sometimes giving something for free makes sense.
 
 Maybe it keeps an important customer happy.
 
-Maybe there was a problem and the business wants to make things right.
+Maybe something went wrong and the business wants to make things right.
 
 Maybe it's simply good service.
 
@@ -138,23 +150,42 @@ Then people can decide whether it's worth it.
 
 ## 🧠 The Whole Project in One Line
 
-**Customer pays \$0 → Equipment gets used → Staff spend time → Business
-still has a cost**
+> **Customer pays \$0 → Equipment gets used → Staff spend time →
+> Business still has a cost**
 
-LuxLog simply tries to make that cost easier to see.
+LuxLog simply makes that cost easier to see.
 
 ------------------------------------------------------------------------
 
 ## 🛠️ How I Analyse It
 
-**Ask a Question → Check the Data → Clean It → Analyse It → Show the
-Results → Make a Recommendation**
+**1. Ask a question**
 
-Simple.
+What are we trying to find out?
+
+**2. Check the data**
+
+What information do we have?
+
+**3. Clean it**
+
+Fix missing, repeated or incorrect information.
+
+**4. Analyse it**
+
+Look for patterns and changes.
+
+**5. Show the results**
+
+Make the findings easy to understand.
+
+**6. Make a recommendation**
+
+Explain what the numbers suggest we should look at.
 
 The dashboard isn't the end goal.
 
-**Understanding what the numbers are telling us is.**
+> **Understanding what the numbers are telling us is.**
 
 ------------------------------------------------------------------------
 
@@ -179,3 +210,5 @@ private data is used.
 ------------------------------------------------------------------------
 
 > ## **Free for the customer doesn't always mean free for the business.**
+
+*LuxLog makes that cost easier to see.*
