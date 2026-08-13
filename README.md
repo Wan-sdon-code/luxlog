@@ -1,214 +1,140 @@
-# 📽️ LuxLog --- When "Free" Isn't Really Free
+# 📽️ LuxLog — When "Complimentary" Still Has a Cost
 
-> **The customer pays \$0. But the equipment still runs and the staff
-> still work. So how much did "free" actually cost?**
+> **Client gets the LED wall complimentary. Invoice says $0.  
+> But equipment still runs and hotel staff still work. So really free meh?** 😂
 
-LuxLog is a simple data project about something businesses sometimes
-overlook:
+LuxLog is a simple data project based on **hotel ballroom events**.
 
-**The hidden cost of giving services or equipment for free.**
+Sometimes AV equipment like an **LED wall** is given complimentary to a client.
 
-![LuxLog Dashboard](./ledwall2.png)
+Client pays:
 
-------------------------------------------------------------------------
+**$0**
 
-## 🤔 What's the Problem?
+But behind the scenes, there is still a cost.
 
-Imagine a customer gets an LED wall for free.
+---
 
-The bill says:
+## 🏨 What Happens Behind the Ballroom Doors?
 
-> **\$0**
+For one function:
 
-Nice.
+**📽️ LED wall gets used**
 
-But the LED wall was still used.
+**👷 AV crew sets it up**
 
-Someone still had to set it up.
+**🏨 Hotel staff support the function**
 
-Staff still spent time working on it.
+**⏱️ Staff spend time**
 
-And every piece of equipment eventually needs repair or replacement.
+**🔧 Equipment gets wear and tear**
 
-One free setup?
+**🧹 Everything still needs to be packed down**
 
-Probably fine.
+So even when the client gets it complimentary:
 
-Keep doing it again and again?
+> **Someone still has to do the work.**
 
-**Now the cost starts adding up.**
+One free setup? Maybe okay.
 
-------------------------------------------------------------------------
+Every other function also free?
+
+**Eh... better check already.** 😂
+
+---
 
 ## 📊 What Does LuxLog Track?
 
-**⏱️ Equipment Hours**\
-How long the equipment was used.
+Simple things:
 
-**👷 Staff Hours**\
-How much time staff spent on the setup.
+**📽️ Equipment Hours** — How long was it used?
 
-**🔧 Equipment Cost**\
-The estimated cost of using the equipment.
+**👷 Staff Hours** — How much time was spent?
 
-**💵 Staff Cost**\
-The estimated cost of the staff time used.
+**💵 Equipment Cost** — What did the equipment usage cost?
 
-**🧾 Customer Paid**\
-How much the customer was charged.
+**💵 Staff Cost** — What did the working hours cost?
 
-**📉 Total Cost**\
-How much the business may have to cover.
+**🧾 Client Paid** — How much was charged?
 
-Nothing fancy.
+Then LuxLog asks:
 
-Just answering:
+> ## **Client paid $0. What did it actually cost us?**
 
-> **We charged \$0. What did it actually cost us?**
+---
 
-------------------------------------------------------------------------
+## 🤔 Does That Mean Don't Give Free?
 
-## 🔍 What Can We Analyse?
+No lah. 😂
 
-LuxLog can help us ask:
+Sometimes complimentary equipment makes sense.
 
-**How many free setups are happening?**
+Maybe it's part of a package.
 
-**How many hours is the equipment being used for free?**
+Maybe it's an important client.
 
-**How much staff time goes into them?**
+Maybe it's service recovery.
 
-**Which equipment gets used the most?**
-
-**How much could each free setup be costing?**
-
-**Which month has the most free usage?**
-
-**Is free usage increasing over time?**
-
-And the most important question:
-
-> **Are free setups actually a problem?**
-
-We don't assume the answer.
-
-Maybe the cost is small and everything is fine.
-
-Maybe the cost is growing and needs attention.
-
-**Let the data tell the story.**
-
-------------------------------------------------------------------------
-
-## 🚦 Keep It Simple
-
-### 🟢 OK
-
-Costs are still reasonable.
-
-**Carry on.**
-
-### 🟠 CHECK
-
-Costs are starting to increase.
-
-**Maybe take a look.**
-
-### 🔴 TOO MUCH
-
-Free setups are costing more than expected.
-
-**Time to review.**
-
-No need for 25 charts and one meeting that could have been an email. 😂
-
-------------------------------------------------------------------------
-
-## 💡 Should We Stop Giving Things for Free?
-
-No.
-
-Sometimes giving something for free makes sense.
-
-Maybe it keeps an important customer happy.
-
-Maybe something went wrong and the business wants to make things right.
-
-Maybe it's simply good service.
+Maybe Sales got a deal to close.
 
 The point isn't:
 
 > **"Don't give anything free."**
 
-The point is:
+It's:
 
 > **"Know what you're giving away."**
 
-Then people can decide whether it's worth it.
+Then the hotel can decide whether it's worth it.
 
-------------------------------------------------------------------------
+---
 
-## 🧠 The Whole Project in One Line
+## 🚦 Keep It Simple
 
-> **Customer pays \$0 → Equipment gets used → Staff spend time →
-> Business still has a cost**
+**🟢 OK** — Cost is reasonable.
 
-LuxLog simply makes that cost easier to see.
+**🟠 CHECK** — Cost is adding up.
 
-------------------------------------------------------------------------
+**🔴 TOO MUCH** — Time to review.
 
-## 🛠️ How I Analyse It
+No need 25 charts and one meeting that could have been an email. 😂
 
-**1. Ask a question**
+---
 
-What are we trying to find out?
+## 🧠 The Simple Idea
 
-**2. Check the data**
+**Ballroom function → Complimentary LED wall → Equipment gets used →
+Staff work → Client pays $0 → Hotel still carries a cost**
 
-What information do we have?
+That's LuxLog.
 
-**3. Clean it**
+> **Complimentary for the client doesn't mean zero cost for the hotel.**
 
-Fix missing, repeated or incorrect information.
+---
 
-**4. Analyse it**
+![LuxLog Dashboard](./ledwall2.png)
 
-Look for patterns and changes.
-
-**5. Show the results**
-
-Make the findings easy to understand.
-
-**6. Make a recommendation**
-
-Explain what the numbers suggest we should look at.
-
-The dashboard isn't the end goal.
-
-> **Understanding what the numbers are telling us is.**
-
-------------------------------------------------------------------------
+---
 
 ## 🐍 Python Version
 
-A simple Python version is included:
-
 [View `luxlog.py`](luxlog.py)
 
-------------------------------------------------------------------------
+---
 
 ## ⚖️ Disclaimer
 
-This is a portfolio project using made-up numbers. No real company or
-private data is used.
+This is a portfolio project inspired by hotel ballroom operations.
+
+All numbers are made up. No real hotel, client or private company data is used.
+
+---
 
 ## ✍️ Credits
 
-**Idea & analysis:** Wansaidon\
+**Idea & analysis:** Wansaidon  
 **Written with:** ChatGPT by OpenAI
 
-------------------------------------------------------------------------
+---
 
-> ## **Free for the customer doesn't always mean free for the business.**
-
-*LuxLog makes that cost easier to see.*
+> **Client sees $0. LuxLog looks at what happened behind the scenes.**
