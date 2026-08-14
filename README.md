@@ -112,7 +112,7 @@ That's LuxLog.
 
 ---
 
-![LuxLog Dashboard](./ledwall2.png)
+![LuxLog Dashboard](./luxlog99.png)
 
 ---
 
